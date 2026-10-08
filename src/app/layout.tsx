@@ -10,8 +10,8 @@ config.autoAddCss = false;
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Chris Taylor | Portfolio",
-  description: "Personal portfolio of Chris Taylor",
+  title: "Connor Wray | Portfolio",
+  description: "Personal portfolio of Connor Wray",
 };
 
 export default function RootLayout({

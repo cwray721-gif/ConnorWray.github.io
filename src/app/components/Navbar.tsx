@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { User, Briefcase, FolderGit2 } from "lucide-react";
+import { User, Briefcase, FolderGit2, NotebookPen, Dices, BookOpenText, TextAlignStart } from "lucide-react";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -10,7 +10,10 @@ export default function Navbar() {
   const links = [
     { href: "/", label: "Home", icon: User },
     { href: "/resume", label: "Experience", icon: Briefcase },
-    { href: "/projects", label: "Projects", icon: FolderGit2 }//,
+    { href: "/projects", label: "All Works", icon: TextAlignStart },
+    { href: "/scripts", label: "Scripts", icon: NotebookPen },
+    { href: "/game-design", label: "Game Design", icon: Dices },
+    { href: "/books", label: "Books", icon: BookOpenText },
     //{ href: "/contributions", label: "Contributions", icon: Briefcase }
   ];
 
@@ -20,7 +23,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <Link href="/" className="font-bold text-xl text-gray-900">
-              Chris Taylor
+              Connor Wray
             </Link>
           </div>
           <div className="flex space-x-8">
