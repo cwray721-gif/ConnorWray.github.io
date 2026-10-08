@@ -23,7 +23,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <Link href="/" className="font-bold text-xl text-gray-900">
-              Chris Taylor
+              Connor Wray
             </Link>
           </div>
           <div className="flex space-x-8">
