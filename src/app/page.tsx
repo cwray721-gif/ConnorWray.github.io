@@ -10,7 +10,7 @@ import { faDiscord } from '@fortawesome/free-brands-svg-icons';
 
 export default function Home() {
   const [text, setText] = useState("");
-  const fullText = "Hi, I'm Chris Taylor.";
+  const fullText = "Hi, I'm Connor Wray.";
 
   useEffect(() => {
     let typeInterval: NodeJS.Timeout;
@@ -104,6 +104,7 @@ export default function Home() {
               >
                 <Github size={24} />
               </a>
+              
               <a
                 href="mailto:chtaylor270@gmail.com" target="_blank"
                 className="p-3 text-gray-500 hover:text-red-500 transition-colors"
@@ -140,7 +141,7 @@ export default function Home() {
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-gray-200 shadow-xl bg-gray-100 flex items-center justify-center">
              <img 
               src="/profile.jpg" 
-              alt="Chris Taylor" 
+              alt="Connor Wray" 
               className="object-cover w-full h-full"
             /> 
           </div>
